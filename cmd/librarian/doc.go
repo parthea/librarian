@@ -68,7 +68,7 @@ Examples:
 
 # Workflow and Options:
 
-The generation process involves delegating to the language container's
+test.The generation process involves delegating to the language container's
 'generate' command. After the code is generated, the tool cleans the destination
 directories and copies the new files into place, according to the configuration
 in '.librarian/state.yaml'.
