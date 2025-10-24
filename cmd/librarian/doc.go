@@ -28,7 +28,7 @@ The commands are:
 
 # generate
 
-The generate command is the primary tool for all code generation
+test. The generate command is the primary tool for all code generation
 tasks. It handles both the initial setup of a new library (onboarding) and the
 regeneration of existing ones. Librarian works by delegating language-specific
 tasks to a container, which is configured in the .librarian/state.yaml file.
