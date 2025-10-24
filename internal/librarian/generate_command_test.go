@@ -1590,6 +1590,9 @@ func TestNeedsConfigure(t *testing.T) {
 				Libraries: []*config.LibraryState{
 					{
 						ID: "some-library",
+						APIs: []*config.API{
+							{Path: "another/api"},
+						},
 					},
 				},
 			},
